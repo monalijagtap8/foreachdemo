@@ -5,4 +5,5 @@ export default class CmpParent extends LightningElement {
   hanldeProgressValueChange(event) {
     this.progressValue = event.detail;
   }
+  //first comment
 }
