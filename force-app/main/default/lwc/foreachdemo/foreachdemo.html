@@ -1,0 +1,13 @@
+<template>
+    <lightning-card>
+        <template for:each={carlist} for:item="car">
+            <a href="#" key={car}>{car}</a>
+        </template>
+    </lightning-card>
+    <lightning-card>
+        <template for:each={programlist} for:item="program">
+            <a href="#" key={program.id}>{program.language}</a>
+        </template>
+    </lightning-card>
+    
+</template>
